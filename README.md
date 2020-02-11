@@ -125,44 +125,49 @@ We'll do a quick refresher on some javaScript Basics that we need to know for th
 
 `'string2'`
 
-``string ${num3} with variable``
+`'string ${num3} with variable'` < - Uses back ticks not single quotes
 </details>
 
 <details>
   <summary>How do we make a number?</summary>
 		just type a number with no quotation marks
 
-5
+`5`
 
-5+5
+`5+5`
+
+`6 % 6`
+
+`7 / 4`
+
 </details>
 
 <details>
   <summary>How do we make an array</summary>
 		Square brackets []
 
-fave_food = ["taco", "Sushi", "fried chicken"]
+`fave_food = ["taco", "Sushi", "fried chicken"]`
 </details>
 
 <details>
   <summary>How do we make an object</summary>
 		curly brackets {}
 
-person = {"name":"Sage", "city":"Seattle"}
+`person = {"name":"Sage", "city":"Seattle"}`
 </details>
 
 <details>
   <summary>What is a comparison?</summary>
 		when we compare two pieces of data. >,<, !=, ==, ===, 
 
-8 > 5
+`8 > 5`
 </details>
 
 <details>
   <summary>What is a conditional?</summary>
 		How we often make actions based on a result of a comparision
 
-
+```
 var guess = 5;
 var answer = 4;
 
@@ -175,28 +180,33 @@ if (guess == answer) {
 } else {
 	message = "I think you entered something wrong...";
 };
+```
 </details>
+
 
 
 <details>
   <summary>What is a for loop?</summary>
 		We can loop thru a specific amount of times
 
+```
 for (var i=1; i <= 5; i++) {
     console.log(i);
 }
+```
 </details>
 
 <details>
   <summary>What is a while loop?</summary>
   we can loop until a condition is met
 
+```
 var i = 0;
 while (i < 8) {
     console.log("I will crash your browser if you don't increment i")
     i++
 }
-
+```
 </details>
 
 
