@@ -100,7 +100,7 @@ Give a quick Intro!
 
 ## JavaScript part1 Recap:
 
-We'll do a quick refresher on some javaScript Basics that we need to know for this workshop. If you'd like to refresh more you can check out this [repo](https://github.com/sagecodes/Learn-to-code-javascript) or the resource section of near the bottom. 
+We'll do a quick refresher on some javaScript Basics that we need to know for this workshop. If you'd like to refresh more you can check out this [repo](https://github.com/sagecodes/intro-to-javascript-part1) or the resource section of near the bottom. 
 
 
 <details>
@@ -227,21 +227,68 @@ You'll see two common ways of creating a function called `Declaration` and `Expr
 Declaration:
 
 ```
+// create a function called printHello
+function printHello() {  
+  console.log("Hello")
+};
+
+// call (run) that function
+add();
+
+```
+
+Taking Arguments
+
+
+```
+function add(a, b) {  
+  console.log(a + b);
+}
+add(2, 3);
+
+```
+
+Return instead of printing
+
+```
 function add(a, b) {  
   return a + b
 }
+
 add(2, 3)
 
 ```
 
-
-Expression:
+Expression function
 
 ```
 var sum = function(a, b) {  
   return a + b
 }
 sum(2, 3)
+```
+
+
+### Challenge
+
+1. Make our fizzBuzz Solution a function
+2. make our fizzbuzz solution dynamic (we can tell it where we want count when we run it.)
+
+```
+// FizzBuzz
+
+for (var i=1; i <= 20; i++)
+{
+    if (i % 15 == 0) {
+        console.log("FizzBuzz");
+    } else if (i % 3 == 0) {
+        console.log("Fizz");
+    } else if (i % 5 == 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
 
 ```
 
@@ -327,18 +374,22 @@ To keep it simple you can remember that `let` and `const` cannot be accessed bef
 Technically they do get hoisted, but are caught is something called the *temporal dead zone*(a period between entering scope and being declared where they cannot be accessed). Read more about that [here](
 https://stackoverflow.com/questions/31219420/are-variables-declared-with-let-or-const-not-hoisted-in-es6).
 
+In short. Declare your variables at the top to avoid hoisting errors. 
+
 
 ### Function Hoisting in action!
 
-Similar to variables, functions also have get hoisted.
+Similar to variables, functions also get hoisted.
 
 Lets see how it behaves with a Declaration function:
 
 ```
 add(2, 3)
+
 function add(a, b) {  
   return a + b
 }
+
 add(2, 3)
 
 ```
