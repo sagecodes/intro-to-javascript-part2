@@ -107,25 +107,25 @@ We'll do a quick refresher on some javaScript Basics that we need to know for th
   <summary>How do we make a variable</summary>
 		use the keywod  var, let, or const
 
-let name = "Sage Elliott"
+`let name = "Sage Elliott"`
 </details>
 
 <details>
   <summary>how do we print out something to the console?</summary>
         console.log() and we put what we want to print out in the ()
 		
-console.log("I'm printed")
+`console.log("I'm printed")`
 </details>
 
 <details>
   <summary>How do we make a string?</summary>
 		Strings use quotation marks single or double
 
-"string"
+`"string"`
 
-'string2'
+`'string2'`
 
-`string ${num3} with variable`
+``string ${num3} with variable``
 </details>
 
 <details>
