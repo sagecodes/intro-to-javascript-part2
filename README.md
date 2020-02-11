@@ -1,43 +1,81 @@
-# JavaScript Functions & Scopes 
+# Intro to JavaScript | Part 2
 
-## short URL to this repo [jsfunc.sage.codes](https://github.com/sagecodes/js-function-scopes)
+## short URL to this repo [js2.sage.codes](https://github.com/sagecodes/intro-to-javascript-part2)
 
-## Setting up your computer:
+### FAQ: 
 
-- Open your web browser. I'll be using [chrome](https://www.google.com/chrome/), but  you can use whatever one you want.
-- go to [repl.it](https://repl.it/repls) and create a new JavsScript repo
-
-That was easy!
-
-
-## Galvanize 
-
-### Welcome to Galvanize!
-
-We create a technology ecosystem for learners, entrepreneurs, startups, and established companies to meet the needs of the rapidly changing digital world.
-
-Upcoming JavaScript workshops:
+- WIFI: `Galvanize Guest` | Password is posted on the wall
+- Bathrooms: Behind you down the hall to the left
+- Kitchen outside back classroom door with Coffee & Tea!
+- Snacks + water in back of room
 
 
-We're an awesome community!!! 
 
-Interested in learning more about our Galvanize programs reach out to Lauren @ [lauren.lark@galvanize.com](mailto:lauren.lark@galvanize.com)
+## Setting up your computer
 
 
-## Setting up
+#### Please set up the following:
+
+* A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
+* We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
+
+
+Well... that was easy! 
+
+
+## What this workshop is
+
+A super friendly introduction to JavaScript No previous experience expected! 
+
+You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
+
+- This course is for absolute beginners
+- Ask Questions!
+- Answer Questions!
+- Help others when you can
+- Its ok to get stuck, just ask for help!
+- Be patient and nice
+
+#### Part 1 we'll cover the basics of:
+
+- Variables
+- Strings
+- Numbers
+- Arrays
+- Objects
+- Conditionals
+- Loops
+- Put it all together to solve a classic computer science problem
+
+
+#### Part 2 (Tonight) we'll cover the basics of:
+ - Functions
+ - Scopes
+ - putting it all together again!
+
+
+Again this will only be the basics and I hope it will serve as a great starting point for you!
+
+We could probably spend more than 2 hours on each one of these concepts. So you'll absolutely want to dive deeper in each topic! 
 
 
 ## About me:
-I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist at Galvanize Seattle. In the past decade I've worked as a software and hardware engineer with mostly with Startups and Agencies in Seattle and Central Florida. I love technology! I'm currently learning more about Deep Learning & Computer Vision. If you're looking for a job or next steps in learning, let me know!
 
-*caveat* I'm not an Galvanize instructor, They have much more industry experience and are better at teaching difficult topics!
-
-If you have an event you would like to see or put on let me know! I'm always looking for ideas. Talk to me after the workshop or find me online at one of these:
+Hello I'm [Sage Elliott](https://www.linkedin.com/in/sageelliott/). I'm a Technology Evangelist here at Galvanize! For the past decade I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love making things with technology! I'm Currently learning more about computer vision and deep learning deep learning!
 
 - Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+Reach out to me if interested in:
+
+- breaking into the tech industry 
+- learning resources
+- meetup recommendations 
+- learning more about Galvanize
+- giving me suggestions for events!
+- being friends
 
 
 ## About you!
@@ -46,133 +84,53 @@ Give a quick Intro!
 
 - Whats your name?
 - Whats your background?
-- Why are you interested in SQL and data?
-
-One of the best things about these in person workshops is being able to meet new people! Talk to each other!
+- Why are you interested in JavaScript?
 
 
-## What this workshop is
+### FAQ Again for anyone who just walked in: 
 
-A super friendly introduction to JavaScript Functions and Scopes. Some of the javaScript weirdness!
-
-You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! This workshop will introduce you to concepts you'll encounter later in your learning journey or career (and sometimes interviews)
-
-- This course is for absolute beginners
-- Ask Questions!
-- Answer Questions!
-- Help others when you can
-- Its ok to get stuck, just ask for help!
-- Feel free to move ahead
-- Be patient and nice
-
-
+- WIFI: `Galvanize Guest` | Password is posted on the wall
+- Bathrooms: Behind you down the hall to the left
+- Kitchen outside back classroom door with Coffee & Tea!
+- Snacks + water in back of room
+- Get to this repo by typing in URL: **js1.sage.codes**
 ## What is javaScript?
 
-### Its not Java
-
-"The relationship between Java and JavaScript is almost exactly like that between grapes and grapefruit"
-
-Java is an entirely different programming language.
 
 
-### A very brief history
-
-Created by Brendan Eich in 1995 in ONLY 10 days during his time at Netscape Communications.
-
-A lot of updates have happened of course since then, but its still fun to see some of the [quirks](https://www.destroyallsoftware.com/talks/wat) still in the language!
-
-Read more about the history of JavaScript [here](https://en.wikipedia.org/wiki/JavaScript).
-
-Javascript is often used with HTML and CSS to create dynamic web pages. 
-
-### Who uses javaScript?
-
-Almost everyone!
-
-- Large Companies (Google, Facebook)
-- Startups
-- Agencies
-- Pretty much anyone using web technology 
-
-
-### What can you do with JavaScript
-
-- Web Development
-	- Front-End
-	- Back-End
-- Mobile Development 
-- [Machine learning](https://js.tensorflow.org/) 😱
-- [Embedded(Hardware) Programming](http://ejs.co/) 😲
-
-#### Popular Frameworks to keep in mind
-
-When learning more about JS you'll probably keep learning about these!
-
-- Node
-- Express
-- React
-- Angular
-- Vue
-
-
-## JavaScript Refresher:
+## JavaScript part1 Recap:
 
 We'll do a quick refresher on some javaScript Basics that we need to know for this workshop. If you'd like to refresh more you can check out this [repo](https://github.com/sagecodes/Learn-to-code-javascript) or the resource section of near the bottom. 
 
-### Variables
 
-These are three ways of creating a variable.
+<details>
+  <summary>How do we make a variable</summary>
+		use the keywod  `var`, `let`, or `const`
 
-##### var
+        let name = "Sage Elliott"
+</details>
 
-var is the older way of declaring a variable. You'll probably still see this quite a bit, but when learning from new content you'll probably start seeing `let` and `cosnt` more frequently. var is function scoped (we'll go into scoping later)
+<details>
+  <summary>how do we print out something to the console?</summary>
+		`console.log("I'm printed")`
+</details>
 
-```
-var greeting = "hello"
+<details>
+  <summary>How do we make a string?</summary>
+		Strings use quotation marks single or double
+</details>
 
-console.log(greeting)
+number
+array
+object
+comparison
+conditional
+for loop 
+while loop
 
-// You can change the variable declared with var
-greeting = "bye"
 
-console.log(greeting)
-```
 
-##### Let
-
-`let` is similar to `var`. except that let is block scoped. (We'll go into scoping later). You'll see this variable declaration a lot and when in doubt its probably the one to use. 
-
-```
-let greeting = "hello"
-
-console.log(greeting)
-
-// You can change the variable declared with let
-greeting = "bye"
-
-console.log(greeting)
-```
-
-#####  Const
-
-Const is used to declare variables you do not want to change later in your code. This helps yourself and other developers working on your team prevent accidentally rewriting a variables that was not supposed to be.  
-
-What will happen when we try to overwrite the variable in the below example?
-
-```
-const greeting = "hello"
-
-console.log(greeting)
-
-// You can NOT change the variable declared with const
-greeting = "bye"
-
-console.log(greeting)
-```
-
-Essentially `let` and `const` are considered "safer" to use.
-
-#####  Functions
+## Functions
 
 Reduce, Reuse, Recycle
 
@@ -205,6 +163,7 @@ var sum = function(a, b) {
 sum(2, 3)
 
 ```
+
 
 ## Hoisting
 
