@@ -112,7 +112,8 @@ We'll do a quick refresher on some javaScript Basics that we need to know for th
 
 <details>
   <summary>how do we print out something to the console?</summary>
-		`console.log("I'm printed")`
+		
+        `console.log("I'm printed")`
 </details>
 
 <details>
