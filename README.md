@@ -51,8 +51,7 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 #### Part 2 (Tonight) we'll cover the basics of:
  - Functions
  - Scopes
- - putting it all together again!
-
+ - Next steps
 
 Again this will only be the basics and I hope it will serve as a great starting point for you!
 
