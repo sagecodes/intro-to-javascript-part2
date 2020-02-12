@@ -224,7 +224,7 @@ Example: these functions take in two arguments(a, b) and returns the value of th
 You'll see two common ways of creating a function called `Declaration` and `Expression`. We'll go into the differences with these types later when we get into scoping. Just remember there are two types!
 
 
-Declaration:
+##### Declaration:
 
 ```
 // create a function called printHello
@@ -237,7 +237,7 @@ add();
 
 ```
 
-Taking Arguments
+##### Taking Arguments
 
 
 ```
@@ -248,7 +248,7 @@ add(2, 3);
 
 ```
 
-Return instead of printing
+##### Return instead of printing
 
 ```
 function add(a, b) {  
@@ -259,7 +259,9 @@ add(2, 3)
 
 ```
 
-Expression function
+##### Expression function
+
+We'll talk about why you may want to do this later
 
 ```
 var sum = function(a, b) {  
@@ -268,6 +270,43 @@ var sum = function(a, b) {
 sum(2, 3)
 ```
 
+##### Default argument
+
+Sometimes you want a default argument that you can overide.
+
+```
+var sum = function(a, b=2) {  
+  return a + b
+}
+sum(2, 3)
+```
+
+##### More arguments
+
+You may want to make a function that can take in an undefined amount of arguments
+
+```
+x = printNames("Sage");
+
+function printNames() {
+  
+  for (var i = 0; i < arguments.length; i++) {
+   
+     console.log(arguments[i]);
+    }
+  }
+```
+
+
+##### Arrow function syntax
+
+A shorter way of writing functions introduced in ES6. 
+
+```
+hello = () => {
+  return "Hello World!";
+}
+```
 
 ### Challenge
 
@@ -571,7 +610,9 @@ function two () {
 two()
 ```
 
-If you're new to programming this and wondering, well how would I get that value into another function to actually do something with it???
+If you're new to programming and wondering, well how would I get that value into another function to actually do something with it?
+
+We can call a function in another function and gets its returned value.
 
 ```
 function one () {
@@ -747,16 +788,22 @@ Expression functions
 </details>
 
 
+## Using JavaScript on a web page
+
+I showed you the DOM and talked about how JavaScript is used to manipulate those elements. 
+
+A good next step is for you to start doing that 
+
+perhaps that will be a workshop in the near future, but for now you can jump over to [here](https://www.w3schools.com/js/js_htmldom.asp) and start playing with some examples.
+
 
 ## Keep Learning!!!
 
 ### Resources:
 
-- [Hack reactor Premium Prep](https://www.galvanize.com/gift-of-code?utm_medium=Seattle&utm_source=Meetup&utm_campaign=LearnToCode) FREE until 2/15 (usually $250)
+- [Free Software Engineering Prep](https://www.galvanize.com/web-development/prep) - Galvanize
 
 - [Free Data Science Prep](https://www.galvanize.com/data-science-prep) - Galvanize
-
-- [Free Software Engineering Prep](https://www.galvanize.com/web-development/prep) - Galvanize
 
 - [https://github.com/getify/You-Dont-Know-JS](You-Dont-Know-JS)
 
@@ -764,21 +811,13 @@ Expression functions
 
 - [hoisting interview questions](https://medium.freecodecamp.org/function-hoisting-hoisting-interview-questions-b6f91dbc2be8)
 
-- [Work through problems here](https://repl.it/@SageElliott/scopesProblems)
-
-
 
 ## Upcoming Events!
 
-We host so many events! check out our [calendar](https://www.galvanize.com/events)
-
 Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
-[Python 101](https://www.eventbrite.com/e/javascript-mini-bootcamp-fundamentals-i-tickets-54952026992) - 2/21/19 6:30 - 8:30pm
+I publish a weekly event list [here](http://bit.ly/seatechevents)
 
-[JavaScript Mini Bootcamp: Fundamentals I](https://www.eventbrite.com/e/javascript-mini-bootcamp-fundamentals-i-tickets-54952026992) - 2/23/19 10am - 4:30pm
-
-[JavaScript 101](https://www.eventbrite.com/e/javascript-101-tickets-54952136319) - 2/27/19 6:30 - 8:30pm
 
 ## What is Galvanize?
 
