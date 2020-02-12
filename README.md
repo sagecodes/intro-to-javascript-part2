@@ -228,11 +228,11 @@ You'll see two common ways of creating a function called `Declaration` and `Expr
 ```
 // create a function called printHello
 function printHello() {  
-  console.log("Hello")
-};
+  console.log("Hello");
+}
 
 // call (run) that function
-add();
+printHello();
 
 ```
 
@@ -307,7 +307,13 @@ hello = () => {
 }
 ```
 
-### Challenge
+### Challenge 1
+
+1. Make simple functions and call it
+2. edit that function so it takes in at least two arguments and does somethin with them. print or return the output
+
+
+### Challenge 2
 
 1. Make our fizzBuzz Solution a function
 2. make our fizzbuzz solution dynamic (we can tell it where we want count when we run it.)
