@@ -816,29 +816,45 @@ perhaps that will be a workshop in the near future, but for now you can jump ove
 
 Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
-I publish a weekly event list [here](http://bit.ly/seatechevents)
+What do you want to see next?
+
+# What is Galvanize?
+
+> We create a technology ecosystem for learners, entrepreneurs, startups and established companies to meet the needs of the rapidly changing digital world.
+
+![](https://github.com/sagecodes/intro-data-science/raw/master/campus.png)
+
+- Education
+- Co-Working
+- Events
+- Enterprise
 
 
-## What is Galvanize?
+## Galvanize Classes
 
 #### Immersive Bootcamp
 
+Transform your career with our immersive programs
 
-- [Software Engineer](https://www.galvanize.com/web-development) - 4/8/19 - 7/5/19
-- [Data Science](https://www.galvanize.com/data-science) - 5/6/19 - 8/6/19
+- [Software Engineer](http://bit.ly/seawebdev) -  Mar23 - Jun19 | May11 - Aug7
+- [Data Science](http://bit.ly/seadatascience) - Mar16 - Jun12 | Jun29 - Sep25 | Oct5 - Jan15
+
+Remote options:
+
+check out [Galvanize.com](https://www.galvanize.com/)
 
 
 #### Part-Time Courses
 
-- [Intro to Data Science](https://www.galvanize.com/part-time/intro-to-data-science) - 3/4/19 - 4/24/19
+Learn while working with out evening part-time classes
 
-- [Digital Marketing](https://www.galvanize.com/part-time/digital-marketing) - 4/15/19 - 6/7/19
+[Galvanize.com](https://www.galvanize.com/)
+
 
 #### Co-working Space
 
 [work in our building!](https://www.galvanize.com/entrepreneur)
 
-#### We are a community
 
 ## Questions
 
@@ -850,6 +866,5 @@ Please feel free to reach out to me with any questions! Let me know what you're 
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
 
-Questions about education at Galvanize SF email [learn@galvanize.com](mailto:learn@galvanize.com)
 
 
