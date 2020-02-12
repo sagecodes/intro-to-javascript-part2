@@ -1,5 +1,7 @@
 # Intro to JavaScript | Part 2
 
+[SEATTLE JS MEETUP 2/13/20 here at Galvanize](https://www.meetup.com/seattlejs/events/clmbzqybcdbrb/)
+
 ## short URL to this repo [js2.sage.codes](https://github.com/sagecodes/intro-to-javascript-part2)
 
 ### FAQ: 
